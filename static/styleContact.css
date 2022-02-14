@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 21px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.container{
+    height: 80vh;
+}
+.myForm{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 6px;
+    font-size: 16px;
+    border: 2px solid #e34067;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: 2px solid #1a1a1a;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(84 62 68);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    margin-top: 13px;
+}
+.btn:hover{
+    color: red;
+}

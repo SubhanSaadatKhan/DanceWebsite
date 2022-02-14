@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#logo{
+    font-size: 25px;
+    /* border: 2px solid black; */
+    font-family: 'Luxurious Roman', cursive;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 63px
+}
+
+#logo img{
+    /* box-sizing: content-box; */
+    /* border: 2px solid black; */
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(219, 74, 74);
+    padding: 13px 14px;
+    /* padding-bottom: 6px; this was done after logo was added (adjustment) */
+    font-family: 'Luxurious Roman', cursive;
+}
+#navbar ul{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 7px 34px;
+    font-size: 18px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Luxurious Roman', cursive;
+    /* font-weight: bold; */
+    font-size: 42px;
+    color: white;
+    background: center/cover no-repeat url(/static/bgz.jpg);
+    height: 380px;
+    /* background-color: red; */
+}
+#introsection div.sm{
+    font-size: 27px;
+    padding: 3px;
+}
+
+#missionsection{
+    height: 300px;
+    background-color: #803535c7;
+}
+
+#missionsection h2{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 180px;
+    margin: 23px 20px
+}
+.card h3{
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center;
+    margin: 12px;
+    font-size: 23px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+#sponsorssection{
+    height: 225px;
+    background-color: #fbd6d6c7;
+}
+
+#sponsorssection h2{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    padding-top: 12px;
+}
+
+#sponsors{
+    /* border: 2px solid red; */
+    height: 125px;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.spimg{
+    height: 100%;
+    padding: 0px 40px;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
